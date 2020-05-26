@@ -1,0 +1,107 @@
+/*html, body, #main {height: 100%;}*/
+
+/*===============================STYLE CAMPUR================================*/
+
+.border {border: 1px solid black;}
+
+/*===============================/STYLE CAMPUR===============================*/
+
+
+body {
+	margin : 0px; padding : 0px;
+	background-image: url(../img/body.jpg);
+	background-attachment: fixed; /*untuk background posisi tetap*/
+}
+	#wadah {
+		background-image: url(../img/pattern/wrapper.jpg);
+		min-height: 900px;
+		width: 70%;
+		margin : 20px auto;
+		border-radius: 15px;
+	}
+		.logo_header {
+			padding-top: 10px;
+			width: 95%;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			/*border : 1px solid;*/
+		}
+	.detail_wadah {
+		width: 98%;
+		margin : auto;
+		box-sizing: border-box;
+	}
+
+		.menu {
+			width: 100%;
+			margin :0 auto;
+			margin-top: 12px;
+			margin-bottom: 20px;
+		}	ul {
+				background-color: white;
+				margin : 0;
+				padding: 5px;
+				overflow: hidden;
+				border-radius: 7px;
+				list-style-type: none;
+	    		border : 1px solid #b3b3b3;
+			}	li a {
+				float: left;
+				padding: 10px 20px 10px 20px;
+				display: block;
+				/*border : 1px solid;*/
+				text-decoration: none;
+				text-align: center;
+				color: #808080;
+				} li a:hover {
+					color : black;
+				}
+		.main {
+			min-height: 540px;
+			/*background-color: green;*/
+		}		
+			.konten {
+				width: 80%;
+				float: left;
+				box-sizing: border-box;
+				/*border : 1px solid;*/
+			}	
+			.detail_konten {
+				width: 98%;
+				min-height: 540px;
+				border-radius: 10px; 
+				background-color: white;
+				border : 1px solid #b3b3b3;
+				padding: 20px 20px 20px 20px;
+				margin-bottom: 15px;
+				box-sizing: border-box;
+			 	} 
+
+			.menu_kanan {
+				width: 20%;
+				float: left;
+				/*height: 540px;*/
+				min-height: 100px;
+				box-sizing: border-box;
+				/*border: 1px solid black;*/
+			}	
+			.menu_1, .menu_2 {
+				background-color: white;
+				height: 260px;
+				border : 1px solid #b3b3b3;
+				border-radius: 10px; 
+				margin-bottom: 20px;
+			}
+			.clearboth {clear: both;}
+
+			.footer {
+				border : 1px solid;
+				clear: both;
+				text-align: center;
+			}
+
+
+
+		
